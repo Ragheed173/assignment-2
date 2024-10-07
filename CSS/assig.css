@@ -1,0 +1,227 @@
+body{
+    background-color:rgb(244, 205, 155);
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 15px;
+    background-image: url("../PIC/تنزيل\ \(1\).jpeg");
+}
+.header p {
+    text-align: center;
+    font-size: xxx-large;
+    color: antiquewhite;
+    margin: 0 0;
+}
+.header img {
+   width: 6.5%;
+   height: auto;
+}
+.navi {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navi ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(30, 30, 30);
+}
+.navi li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+.navi li:last-child {
+    border-right: none;
+}
+.navi li a:last-child {
+    padding: 14px 16px;
+}
+.navi li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+#logo 
+.navi img {
+   height: 15px;
+   width: 15px;
+}
+.navi li a:hover {
+    background-color:black;
+}
+#logo img:hover {
+    background-color:black;
+}
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.section{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin: 15px 20px 0;
+    flex: 1;
+    padding: 20px;
+    transition: transform 0.5s;
+}
+.main :hover {
+    transform: scale(1.02);
+    transform-origin: bottom;
+    z-index: 1;
+}
+.main h1:hover {
+    transform: none;
+}
+.main p:hover {
+    transform: none;
+}
+.section h1{
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0;
+}
+.section p{
+    text-align: center;
+    padding-bottom: 0px;
+    font-size: 20px
+}
+
+.article{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin: 35px 20px ;
+    flex: 1;
+}
+.section2{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin: 0;
+    flex: 1;
+    padding: 0;
+    transition: transform 0.5s;
+
+}
+.section2 h1{
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0;
+}
+.section2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section2 li {
+    flex: 1;
+    text-align: center;
+}
+.section2 li a {
+    color: black;
+    font-size: larger;
+}
+.section2 li a:link {
+    text-decoration: none;
+}
+.section2 li a:hover {
+    text-decoration: underline;
+}
+.section2 img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.article :hover {
+    transform: scale(1.02);
+}
+.section2 h1:hover {
+    transform: none;
+}
+.section2 ul:hover {
+    transform: none;
+}
+.section2 li:hover {
+    transform: none;
+}
+.section2 img:hover {
+    transform: none;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.footer :hover {
+    transform: scale(1.02);
+}
+.footer h1:hover {
+    transform: none;
+}
+.footer p:hover {
+    transform: none;
+}
+.footer button:hover {
+    transform: none;
+    background-color: aliceblue;
+}
+.footer select:hover {
+    transform: none;
+    background-color: aliceblue;
+}
+.footer section{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin: 15px 20px 0;
+    flex: 1;
+    padding: 20px;
+    transition: transform 0.5s;
+
+}
+.footer section h1{
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 0;
+}
+.footer section p{
+    text-align: center;
+    padding-bottom: 0px;
+    font-size: 20px
+}
+.footer section a {
+    color: black;
+    font-size: larger;
+    display: block;
+    margin: 0 50%;
+    text-align: center;
+}
+.footer section a:link {
+    text-decoration: none;
+}
+.footer section a:hover {
+    text-decoration: underline;
+}
+.footer section select {
+    width: 50%;
+    padding: 16px 20px;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    margin-left: 25%;
+    margin-bottom: 5%;
+}
+.footer section button {
+    margin-left: 45%;
+    margin-bottom: 5%;
+}
